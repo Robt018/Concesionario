@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.models {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.car {
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #222;
+}
+
+.car:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.car img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.car a {
+    display: block;
+    margin-top: 5px;
+    color: cyan;
+    text-decoration: none;
+}
+
+.car a:hover {
+    text-decoration: underline;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
